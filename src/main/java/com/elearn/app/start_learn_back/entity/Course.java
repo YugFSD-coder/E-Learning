@@ -35,6 +35,6 @@ public class Course {
     private List<Video> videos = new ArrayList<>();
 
     @ManyToMany
-    private List<Category> categorList = new ArrayList<>();
+    private List<Category> categoryList = new ArrayList<>();
 
 }

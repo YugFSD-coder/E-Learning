@@ -30,7 +30,4 @@ public class CourseDto {
 
     private String banner;
 
-    private List<VideoDto> videos = new ArrayList<>();
-
-    private List<CategoryDto> categorList = new ArrayList<>();
 }
