@@ -11,7 +11,7 @@ import java.util.Optional;
 @Repository
 public interface CourseRepo extends JpaRepository<Course,String> {
 
-    Optional<Course> findBytitle(String title);
+    List<Course> findBytitle(String title);
 
     List<Course> findByLive(boolean live);
 

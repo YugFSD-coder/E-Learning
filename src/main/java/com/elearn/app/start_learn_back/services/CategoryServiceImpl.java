@@ -34,7 +34,6 @@ public class CategoryServiceImpl implements CategoryService {
         categoryDto.setAddDate(new Date());
 
         Category category = modelMapper.map(categoryDto,Category.class);
-
         Category savedCat = categoryRepo.save(category);
         return modelMapper.map(savedCat,CategoryDto.class);
     }
